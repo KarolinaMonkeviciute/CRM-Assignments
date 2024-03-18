@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Price count</title>
+  </head>
+  <body>
+    <div><p id="price"></p></div>
+    <div>
+      <form style="display: flex">
+        <input id="quantity" type="number" value="1" readonly />
+        <div style="display: flex; flex-direction: column">
+          <button id="increment">^</button> <button id="decrement">⌄</button>
+        </div>
+      </form>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const incrementButton = document.getElementById("increment");
+        const decrementButton = document.getElementById("decrement");
+        const quantityInput = document.getElementById("quantity");
+        const priceDisplay = document.getElementById("price");
+        let price = 45;
+
+        incrementButton.addEventListener("click", function (event) {
+          event.preventDefault();
+          quantityInput.value = +quantityInput.value + 1;
+          updatePrice();
+        });
+
+        decrementButton.addEventListener("click", function (event) {
+          event.preventDefault();
+          if (+quantityInput.value > 1) {
+            quantityInput.value = +quantityInput.value - 1;
+            updatePrice();
+          }
+        });
+
+        function updatePrice() {
+          const quantity = +quantityInput.value;
+          const totalPrice = price - (quantity > 1 ? quantity : 0);
+          priceDisplay.textContent = "€ " + totalPrice + "/mo";
+        }
+
+        updatePrice();
+      });
+    </script>
+  </body>
+</html>

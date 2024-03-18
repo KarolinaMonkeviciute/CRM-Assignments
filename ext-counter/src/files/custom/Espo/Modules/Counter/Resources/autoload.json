@@ -1,0 +1,5 @@
+{
+  "psr-4": {
+    "LibraryNamespace\\": "custom/Espo/Modules/Counter/vendor/espocrm/php-espo-api-client/src"
+  }
+}

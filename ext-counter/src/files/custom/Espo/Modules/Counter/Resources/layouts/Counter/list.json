@@ -1,0 +1,19 @@
+[
+  {
+    "name": "name",
+    "link": true,
+    "label": "Name"
+  },
+  {
+    "name": "diskSize"
+  },
+  {
+    "name": "size"
+  },
+  {
+    "name": "numberOfRecords"
+  },
+  {
+    "name": "nuberOfUsers"
+  }
+]

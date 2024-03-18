@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "apiKey": {
+      "type": "varchar",
+      "maxLength": 255,
+      "required": true
+    },
+    "secretKey": {
+      "type": "varchar",
+      "maxLength": 255,
+      "required": true
+    },
+    "destinationUrl": {
+      "type": "varchar",
+      "maxLength": 255,
+      "required": true
+    }
+  },
+  "view": "views/admin/integrations/edit"
+}

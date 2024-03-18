@@ -1,0 +1,5 @@
+{
+  "CounterJob": {
+    "jobClassName": "Espo\\Modules\\Counter\\MyJobs\\CounterJob"
+  }
+}

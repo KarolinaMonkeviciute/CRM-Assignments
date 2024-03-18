@@ -1,0 +1,29 @@
+[
+  {
+    "rows": [
+      [
+        {
+          "name": "name"
+        },
+        {
+          "name": "diskSize"
+        }
+      ],
+      [
+        {
+          "name": "nuberOfUsers"
+        },
+        {
+          "name": "numberOfRecords"
+        }
+      ],
+      [
+        {
+          "name": "size"
+        }
+      ]
+    ],
+    "style": "default",
+    "label": "Overview"
+  }
+]

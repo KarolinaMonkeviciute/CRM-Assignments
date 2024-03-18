@@ -1,0 +1,13 @@
+{
+    "module": "Currency",
+    "name": "Currency",
+    "description": "new currency.",
+    "author": "Karolina",
+    "bundled": false,
+    "acceptableVersions": [
+        ">=7.3.0"
+    ],
+    "php": [
+        ">=7.2"
+    ]
+}

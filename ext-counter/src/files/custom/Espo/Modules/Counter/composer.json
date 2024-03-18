@@ -1,0 +1,5 @@
+{
+    "require": {
+        "espocrm/php-espo-api-client": "^0.1.0"
+    }
+}

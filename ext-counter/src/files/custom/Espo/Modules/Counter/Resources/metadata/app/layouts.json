@@ -1,0 +1,10 @@
+{
+  "Counter": {
+    "detail": {
+      "module": "Counter"
+    },
+    "list": {
+      "module": "Counter"
+    }
+  }
+}

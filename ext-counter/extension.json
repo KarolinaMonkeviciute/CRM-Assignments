@@ -1,0 +1,13 @@
+{
+    "module": "Counter",
+    "name": "Counter",
+    "description": "Count from DB.",
+    "author": "Karolina",
+    "bundled": false,
+    "acceptableVersions": [
+        ">=7.3.0"
+    ],
+    "php": [
+        ">=7.2"
+    ]
+}

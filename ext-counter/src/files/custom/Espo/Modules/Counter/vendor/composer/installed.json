@@ -1,0 +1,53 @@
+{
+    "packages": [
+        {
+            "name": "espocrm/php-espo-api-client",
+            "version": "0.1.0",
+            "version_normalized": "0.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/espocrm/php-espo-api-client.git",
+                "reference": "20ab5063eb915b25c7fbc0ca1a48571a935c23a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/espocrm/php-espo-api-client/zipball/20ab5063eb915b25c7fbc0ca1a48571a935c23a7",
+                "reference": "20ab5063eb915b25c7fbc0ca1a48571a935c23a7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=8.0.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.9",
+                "phpunit/phpunit": "^9.5"
+            },
+            "time": "2022-12-23T17:44:25+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Espo\\ApiClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "EspoCRM"
+                }
+            ],
+            "description": "API client for EspoCRM.",
+            "support": {
+                "issues": "https://github.com/espocrm/php-espo-api-client/issues",
+                "source": "https://github.com/espocrm/php-espo-api-client/tree/0.1.0"
+            },
+            "install-path": "../espocrm/php-espo-api-client"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

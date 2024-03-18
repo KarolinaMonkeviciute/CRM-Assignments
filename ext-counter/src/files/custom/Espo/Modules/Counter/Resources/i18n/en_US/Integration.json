@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "apiKey": "API key",
+    "secretKey": "Secret Key",
+    "destinationUrl": "Destination URL"
+  },
+  "titles": {
+    "CounterIntegration": "Counter"
+  }
+}
